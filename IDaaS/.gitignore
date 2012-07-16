@@ -1,0 +1,34 @@
+# .gitignore for Grails 2.0.4
+
+# Maven output directory
+target/
+target-eclipse/
+
+# grails runtime files
+plugin.xml
+plugins/
+web-app/plugins/
+web-app/WEB-INF/classes
+web-app/WEB-INF/tld/grails.tld
+web-app/WEB-INF/tld/spring.tld
+.link_to_grails_plugins
+
+# logs
+stacktrace.log
+test/reports/ 
+
+# Eclipse Project files
+*.iws
+*.ipr
+*.launch
+*.tmproj
+*~
+
+# OS X generated files
+.DS_Store
+
+# project release file
+*.war
+
+# plugin release file
+*.zip
